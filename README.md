@@ -39,5 +39,16 @@ create_user username password
 create_project username repository
 ```
 
+## Tips
+
+If you want to exec `ssh username@127.0.0.1 -p2022` to login git server, you will get this error:
+
+```bash
+> You Wanna Login ?? No Way!!
+> fatal: Interactive git shell is not enabled.
+> hint: ~/git-shell-commands should exist and have read and execute access.
+> Connection to 127.0.0.1 closed.
+```
+
 -------
 Contact me in [Weibo](https://weibo.com/shiboooo), or [qii404.me](https://qii404.me)
