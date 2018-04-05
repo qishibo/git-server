@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-docker run -itd  -p2022:22 --name git-server git-server:1.0
+docker run -itd  -p2022:22 --name git-server qii404/git-server:1.0
 ```
 
 ## RUN
@@ -19,6 +19,7 @@ docker exec git-server create_project username repository
 
 # clone
 git clone ssh://username@127.0.0.1:2022/git_codes/username/repository.git
+# enter password
 
 # push
 git push origin master
@@ -39,4 +40,4 @@ create_project username repository
 ```
 
 -------
-Contact me in [Weibo](https://weibo.com/shiboooo)
+Contact me in [Weibo](https://weibo.com/shiboooo), or [qii404.me](https://qii404.me)
