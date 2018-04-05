@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-docker run -itd  -p2022:22 --name git-server qii404/git-server:1.0
+docker run -itd  -p2022:22 --name git-server qii404/git-server:latest
 ```
 
 ## RUN
