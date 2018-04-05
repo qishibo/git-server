@@ -25,7 +25,7 @@ git clone ssh://username@127.0.0.1:2022/git_codes/username/repository.git
 git push origin master
 ```
 
-<br>
+
 You can also run commands inside docker, such as:
 
 ```bash
