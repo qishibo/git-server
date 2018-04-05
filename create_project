@@ -1,7 +1,7 @@
 #!/bin/sh
 # 根据用户创建git仓库 create_project username project_name project项目名，不需要添加git后缀，脚本会自动添加
 
-if (( "$#" != 2 ))
+if [ "$#" != 2 ]
 then
     echo "Usage: create_project username project_name"
     exit 1
