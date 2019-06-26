@@ -1,6 +1,6 @@
 # Git Server For Multi-User
 
-> Running in docker. The user created is a real linux user but cannot login. Different users' repository cannot be accessed to each other.
+> Running in docker, just like a simple gitlab. The user created is a real linux user but cannot login. Different users' repository cannot be accessed to each other.
 
 ## Install
 
